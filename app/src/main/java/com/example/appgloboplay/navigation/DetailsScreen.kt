@@ -85,7 +85,6 @@ fun DetailsScreen(id: Int) {
                 lineHeight = 40.sp,
                 textAlign = TextAlign.Center
             )
-          //  Rating(details = details., modifier = Modifier)
             TextBuilder(icon = Icons.Filled.Info, title = "Summery:", bodyText = details.plot)
             TextBuilder(icon = Icons.Filled.Person, title = "Actors:", bodyText = details.actors)
             ImageRow(details = details)
